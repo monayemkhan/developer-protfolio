@@ -1,3 +1,4 @@
+
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -22,11 +23,11 @@ section{
 }
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(green yellowgreen);
-    padding: 10px 40px;
-    border-radius: 6px;
-}
-a{
-    color: white;
+    background-image: linear-gradient(to right, yellowgreen , green);
+    padding: 10px 40px !important;
+    border-radius: 6px !important;
+    color: #ffffff;
     font-weight: 700;
+    font-size: 18px;
 }
+
