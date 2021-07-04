@@ -8,6 +8,7 @@ h1{
 }
 h2{
     font-size: 50px;
+    display: block;
 }
 .h-color{
     color: orangered;
@@ -25,8 +26,9 @@ section{
 }
 
 .half-width{
-    width: 50%;
+    width: 40%;
     padding-left: 6%;
+    float: left;
 }
 .half-width img{
     width: 85%;
@@ -52,5 +54,11 @@ section{
     background-repeat: no-repeat;
     background-position: right ;
     margin: -12px;
-    padding: 0;
+}
+.button-section{
+    display: flex;
+}
+
+.flexible-container {
+    width: 100% !important;
 }
